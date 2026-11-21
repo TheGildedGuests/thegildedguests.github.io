@@ -25,3 +25,4 @@
 #about,#characters,#contact{scroll-margin-top:calc(var(--header) + .4rem)}
 .cta .hero-actions{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;max-width:none}
 @media(max-width:640px){.visit-nav{flex-wrap:wrap;overflow:visible;justify-content:space-between;gap:.4rem .6rem}.visit-nav a,.nav-home{font-size:.68rem;letter-spacing:.08em}}
+.about-page{padding-top:5rem;padding-bottom:6rem;min-height:60vh}
