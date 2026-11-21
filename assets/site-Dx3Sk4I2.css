@@ -22,3 +22,6 @@
 .shot img{width:100%;height:100%;object-fit:cover}
 @media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.card .frame{height:240px}.films{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:560px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}.card .frame{height:170px;padding:.3rem}.card div{padding:.6rem .65rem .75rem}.card h3{font-size:1.05rem}.card div>p:not(.when){display:none}.films{grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem .6rem}.film p:not(.when){font-size:.78rem}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:.4rem}}
+#about,#characters,#contact{scroll-margin-top:calc(var(--header) + .4rem)}
+.cta .hero-actions{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;max-width:none}
+@media(max-width:640px){.visit-nav{flex-wrap:wrap;overflow:visible;justify-content:space-between;gap:.4rem .6rem}.visit-nav a,.nav-home{font-size:.68rem;letter-spacing:.08em}}
