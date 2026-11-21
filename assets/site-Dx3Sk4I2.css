@@ -28,3 +28,4 @@
 .about-page{padding-top:5rem;padding-bottom:6rem;min-height:60vh}
 .page-section{padding-top:5rem;padding-bottom:6rem;min-height:60vh}
 .cta.page-section{border-top:0;display:flex;flex-direction:column;justify-content:center}
+.hero h1{white-space:nowrap;font-size:clamp(1.9rem,11.5vw,6rem);line-height:1.05}
