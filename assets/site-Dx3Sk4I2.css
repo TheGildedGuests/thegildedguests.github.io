@@ -90,3 +90,13 @@ h1,h2,h3,p,blockquote{overflow-wrap:break-word}
 }
 /* large screens */
 @media(min-width:1500px){.carousel{width:min(1280px,100%)}}
+/* John & Fae feature card */
+.guest-feature{grid-column:1/-1;grid-template-columns:360px 1fr;gap:2.2rem;padding:1.6rem;border-color:var(--gold)}
+.guest-feature img{width:360px;height:360px;object-position:center}
+.guest-feature .eyebrow{margin:0 0 .4rem}
+.guest-feature h3{font-size:clamp(1.9rem,4vw,2.6rem);margin:0}
+.feature-rule{display:block;width:64px;height:1px;background:var(--gold);margin:.9rem 0 1rem}
+.feature-line{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.4vw,1.5rem);margin:0 0 .35rem;color:var(--cream)}
+.feature-visits{margin:1rem 0 0;color:var(--muted);font-size:.9rem}
+.feature-visits a{color:var(--gold-text)}
+@media(max-width:760px){.guest-feature{grid-template-columns:1fr;justify-items:center;text-align:center}.guest-feature img{width:min(100%,340px);height:auto}.feature-rule{margin:.9rem auto 1rem}}
