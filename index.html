@@ -29,9 +29,47 @@
         <div class="rule" aria-hidden="true"></div>
         <p class="tagline">Beautiful things and wonderful experiences.</p>
         <p class="positioning">Curated visits and experiences created from real-life visits mixed with a boutique AI-augmented customer experience.</p>
-        <figure class="hero-photo">
-          <img src="./media/edinburgh-castle/3_2108046457140088832.webp" alt="Come along with us." width="4000" height="3000" />
-        </figure>
+        <div class="carousel" aria-label="The visits">
+        <button type="button" class="car-btn car-prev" aria-label="Previous visits">&#8249;</button>
+        <button type="button" class="car-btn car-next" aria-label="Next visits">&#8250;</button>
+        <div class="carousel-track">
+          <a class="slide" href="./va-dundee-david-bowie.html">
+            <figure><img src="./media/va-dundee-david-bowie/3_2118256644043997185-thumb.webp" alt="Lilith and Aelith are visiting the V&amp;A Museum in Dundee to view &#x27;David Bowie: On Tour&#x27;. Join us. 17th November. @VADundee" decoding="async" /></figure>
+            <span class="slide-when">17 November 2026</span>
+            <span class="slide-title">Trip to V&amp;A Dundee for David Bowie: On Tour</span>
+          </a>
+          <a class="slide" href="./creel-caught-bonnie-and-wild.html">
+            <figure><img src="./media/creel-caught-bonnie-and-wild/3_2110622026218323968-thumb.webp" alt="Lunch break in BONNIE &amp; WILD. St James Cres, Edinburgh" decoding="async" /></figure>
+            <span class="slide-when">15 October 2026</span>
+            <span class="slide-title">Creel Caught at Bonnie &amp; Wild</span>
+          </a>
+          <a class="slide" href="./the-witchery.html">
+            <figure><img src="./media/the-witchery/3_2108256787942273026-thumb.webp" alt="A quick walk from Edinburgh Castle, and we&#x27;re here. The Witchery by the Castle @TheWitcheryEdin" decoding="async" /></figure>
+            <span class="slide-when">8–9 October 2026</span>
+            <span class="slide-title">The Witchery restaurant</span>
+          </a>
+          <a class="slide" href="./edinburgh-castle.html">
+            <figure><img src="./media/edinburgh-castle/cover-castle-thumb.webp" alt="Edinburgh Castle, followed by lunch at The Witchery." decoding="async" /></figure>
+            <span class="slide-when">7–9 October 2026</span>
+            <span class="slide-title">Edinburgh Castle</span>
+          </a>
+          <a class="slide" href="./prestonfield-house.html">
+            <figure><img src="./media/prestonfield-house/3_2107243190931906560-thumb.webp" alt="The dining room at Prestonfield House is absolute luxury." decoding="async" /></figure>
+            <span class="slide-when">5–11 October 2026</span>
+            <span class="slide-title">Prestonfield House</span>
+          </a>
+          <a class="slide" href="./traquair-house.html">
+            <figure><img src="./media/traquair-house/3_2106931953211764736-thumb.webp" alt="John and Asha visit Traquair house." decoding="async" /></figure>
+            <span class="slide-when">5 October 2026</span>
+            <span class="slide-title">Traquair House</span>
+          </a>
+          <a class="slide" href="./abbotsford.html">
+            <figure><img src="./media/abbotsford/3_2106920808929239040-thumb.webp" alt="We sent John to visit Abbotsford. The home of Sir Walter Scott." decoding="async" /></figure>
+            <span class="slide-when">5 October 2026</span>
+            <span class="slide-title">Abbotsford</span>
+          </a>
+        </div>
+      </div>
         <p class="hero-actions"><a class="button" href="#experiences">The experiences</a></p>
       </section>
       <section class="band" id="who">
@@ -155,5 +193,10 @@
       </div>
     </dialog>
     
+    <script>
+      document.querySelectorAll('.carousel').forEach(function(c){var t=c.querySelector('.carousel-track');
+        c.querySelector('.car-prev').addEventListener('click',function(){t.scrollBy({left:-t.clientWidth*0.8,behavior:'smooth'})});
+        c.querySelector('.car-next').addEventListener('click',function(){t.scrollBy({left:t.clientWidth*0.8,behavior:'smooth'})});});
+    </script>
   </body>
 </html>
