@@ -103,3 +103,5 @@ h1,h2,h3,p,blockquote{overflow-wrap:break-word}
 @media(min-width:761px){.guest-feature-alt{grid-template-columns:1fr 360px}.guest-feature-alt img{order:2}.guest-feature-alt>div{text-align:right}.guest-feature-alt .feature-rule{margin-left:auto}}
 .feature-desc{margin:0 0 1rem;color:var(--cream);font-size:1rem;line-height:1.6;max-width:34rem}
 @media(max-width:760px){.feature-desc{margin-left:auto;margin-right:auto}}
+.contact-email{margin:.4rem 0 1.4rem;font-family:var(--serif);font-size:clamp(1.3rem,3.5vw,1.8rem)}
+.contact-email a{color:var(--gold-text);text-decoration:none;border-bottom:1px solid var(--gold);display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
