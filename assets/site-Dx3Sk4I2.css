@@ -112,3 +112,4 @@ h1,h2,h3,p,blockquote{overflow-wrap:break-word}
 .contact-card img{display:block;width:100%;height:auto}
 .contact-card figcaption{margin:.8rem 0 0;font-family:var(--serif);font-style:italic;color:var(--muted);font-size:clamp(1rem,2.6vw,1.15rem);letter-spacing:.06em}
 @media(max-width:640px){.contact-card{max-width:96px}}
+.contact-card figcaption{white-space:nowrap}
