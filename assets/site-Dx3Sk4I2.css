@@ -113,3 +113,4 @@ h1,h2,h3,p,blockquote{overflow-wrap:break-word}
 .contact-card figcaption{margin:.8rem 0 0;font-family:var(--serif);font-style:italic;color:var(--muted);font-size:clamp(1rem,2.6vw,1.15rem);letter-spacing:.06em}
 @media(max-width:640px){.contact-card{max-width:min(384px,86vw)}}
 .contact-card figcaption{white-space:nowrap}
+.contact-card img{border-radius:2.5%}
