@@ -106,9 +106,9 @@ h1,h2,h3,p,blockquote{overflow-wrap:break-word}
 .contact-email{margin:.4rem 0 1.4rem;font-family:var(--serif);font-size:clamp(1.3rem,3.5vw,1.8rem)}
 .contact-email a{color:var(--gold-text);text-decoration:none;border-bottom:1px solid var(--gold);display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
 
-.contact-card{margin:2.2rem auto 0;max-width:320px;text-align:center}
+.contact-card{margin:2.2rem auto 0;max-width:200px;text-align:center}
 .contact-card a{display:block;line-height:0;border-radius:2px}
 .contact-card a:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
 .contact-card img{display:block;width:100%;height:auto}
 .contact-card figcaption{margin:.8rem 0 0;font-family:var(--serif);font-style:italic;color:var(--muted);font-size:clamp(1rem,2.6vw,1.15rem);letter-spacing:.06em}
-@media(max-width:640px){.contact-card{max-width:78vw}}
+@media(max-width:640px){.contact-card{max-width:52vw}}
