@@ -100,7 +100,7 @@ h1,h2,h3,p,blockquote{overflow-wrap:break-word}
 .feature-visits{margin:1rem 0 0;color:var(--muted);font-size:.9rem}
 .feature-visits a{color:var(--gold-text)}
 @media(max-width:760px){.guest-feature{grid-template-columns:1fr;justify-items:center;text-align:center}.guest-feature img{width:min(100%,340px);height:auto}.feature-rule{margin:.9rem auto 1rem}}
-@media(min-width:761px){.guest-feature-alt{grid-template-columns:1fr 360px}.guest-feature-alt img{order:2}.guest-feature-alt>div{text-align:right}.guest-feature-alt .feature-rule{margin-left:auto}}
+
 .feature-desc{margin:0 0 1rem;color:var(--cream);font-size:1rem;line-height:1.6;max-width:34rem}
 @media(max-width:760px){.feature-desc{margin-left:auto;margin-right:auto}}
 .contact-email{margin:.4rem 0 1.4rem;font-family:var(--serif);font-size:clamp(1.3rem,3.5vw,1.8rem)}
